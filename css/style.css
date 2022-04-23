@@ -154,10 +154,17 @@ header nav.right ul li a:hover{
 header nav.right ul li a.button{
 display: inline-block;
 padding: 8px 12px;
+
+background-color: #fff;
+	color: #000;
+opacity: 1;
+border-radius: 8px;
+transition: 0.5s;  
+}
+header nav.right ul li a.button:hover{
 background-color: #4eac56;
 color: #fff;
-opacity: 1;
-border-radius: 8px;  
+transition: 0.5s;
 }
 #home{
 padding:5% 0;
@@ -330,6 +337,12 @@ padding: 14px 18px;
 border: 1px solid #6b7a87;
 border-radius: 8px;
 font-weight: 700;
+transition: 0.5s;
+}
+#compontes div.left a.button:hover{
+	background-color: #4eac56;
+color: #fff;
+transition: 0.5s;
 }
 #compontes div.right{
 display: flex;
